@@ -8,7 +8,9 @@
     ],
     "scripts": {
         "build": "tsc",
-        "build:watch": "tsc --watch"
+        "build:watch": "tsc --watch",
+        "test": "jest",
+        "test:watch": "jest --watch"
     },
     "dependencies": {
         "redux-saga": "^1.1.3",

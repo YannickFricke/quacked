@@ -1,9 +1,5 @@
 import { Duck } from '../Duck';
 
-interface Test {
-    name: string;
-}
-
 describe('Duck', () => {
     it('should be instantiable', () => {
         const duck = new Duck({

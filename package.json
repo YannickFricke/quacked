@@ -2,6 +2,10 @@
     "name": "quacked",
     "version": "0.0.0",
     "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "build:watch": "tsc --watch"
+    },
     "dependencies": {
         "redux-saga": "^1.1.3",
         "reselect": "^4.0.0"

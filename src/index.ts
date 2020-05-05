@@ -1,0 +1,1 @@
+export { Duck } from './Duck';
